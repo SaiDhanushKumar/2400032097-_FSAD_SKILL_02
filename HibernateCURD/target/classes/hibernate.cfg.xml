@@ -1,0 +1,23 @@
+<hibernate-configuration>
+<session-factory>
+
+<property name="hibernate.connection.driver_class">
+com.mysql.cj.jdbc.Driver
+</property>
+
+<property name="hibernate.connection.url">
+jdbc:mysql://localhost:3306/studentdb
+</property>
+
+<property name="hibernate.connection.username">root</property>
+
+<property name="hibernate.connection.password">Sai03012007.</property>
+
+<property name="hibernate.dialect">
+org.hibernate.dialect.MySQL8Dialect
+</property>
+
+<mapping class="com.klef_skillexp2.HibernateCURD.Student"/>
+
+</session-factory>
+</hibernate-configuration>
